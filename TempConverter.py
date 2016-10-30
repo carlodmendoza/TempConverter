@@ -1,5 +1,5 @@
 def convertToF(tempCel):
-	tempFar = tempCel * (9/5) + 32
+	tempFar = (tempCel * 9)/5 + 32
 	return tempFar
 
 if __name__ == '__main__':
